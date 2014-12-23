@@ -8,7 +8,7 @@ namespace MongoUpload
 
 
         // http://odetocode.com/blogs/scott/archive/2013/04/16/using-gridfs-in-mongodb-from-c.aspx
-        public void Test()
+        public static void Test()
         {
             string fileName = "clip_image071.jpg";
 
@@ -24,7 +24,7 @@ namespace MongoUpload
         } // End Sub Test 
 
 
-        public MongoDB.Bson.ObjectId UploadFile(MongoGridFs gridFs, string fileName)
+        public static MongoDB.Bson.ObjectId UploadFile(MongoGridFs gridFs, string fileName)
         {
             MongoDB.Bson.ObjectId id = MongoDB.Bson.ObjectId.Empty;
             // UploadFile
@@ -37,7 +37,7 @@ namespace MongoUpload
         } // End Sub UploadFile 
 
 
-        public void DownloadFile(MongoGridFs gridFs, MongoDB.Bson.ObjectId id, string path)
+        public static void DownloadFile(MongoGridFs gridFs, MongoDB.Bson.ObjectId id, string path)
         {
             using (System.IO.Stream file = gridFs.GetFile(id))
             {
@@ -64,7 +64,7 @@ namespace MongoUpload
         } // End Sub DownloadFile
 
 
-        public byte[] DownloadFile(MongoGridFs gridFs, MongoDB.Bson.ObjectId id)
+        public static byte[] DownloadFile(MongoGridFs gridFs, MongoDB.Bson.ObjectId id)
         {
             byte[] buffer = null;
 

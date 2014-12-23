@@ -6,10 +6,11 @@
 <head runat="server">
     <title></title>
 </head>
+
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <asp:button runat="server" text="Upload" OnClick="Unnamed1_Click" />    
     </div>
     </form>
 </body>

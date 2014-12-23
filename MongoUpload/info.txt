@@ -1,5 +1,60 @@
 ﻿wmic os get osarchitecture
 
+D:\Programme\MongoDB\bin\mongod.exe --dbpath=D:\Programme\MongoDB\data
+
+
+
+
+https://github.com/otac0n/WebGitNet
+
+
+http://www.eqqon.com/index.php/GitSharp
+
+http://www.eqqon.com/index.php/GitSharp
+
+
+https://github.com/Imroy/gridfs-fuse
+
+https://github.com/ax003d/gridfs-fuse
+
+
+
+
+
+http://rogerdudler.github.io/git-guide/index.de.html
+http://stackoverflow.com/questions/8889599/how-to-overwrite-with-a-git-push-overwrite-changes-to-the-git-server
+
+
+http://forum.codio.com/t/git-commit-reports-changes-not-staged-for-commit/286
+
+
+On branch master Your branch is up-to-date with 'origin/master'. 
+Changes not staged for commit: modified: helpdesk/libs/footer.php 
+no changes added to commit 
+
+
+
+git commit -a
+instead of just
+git commit
+
+git commit -a -m "Fix compilation"
+git push origin master
+
+
+add the -a or --all flag to the end of the command. 
+that will tell git to to check for changed files and any with changes should be comitted.
+
+
+
+
+
+
+
+
+
+
+
 
 
 http://hackingdistributed.com/2013/01/29/mongo-ft/
@@ -125,3 +180,28 @@ http://www.imore.com/59-ios-app-developers-break-costs
 http://www.visionmobile.com/products/research/#developer-economics-research
 
 https://www.udemy.com/blog/making-an-app/
+
+
+
+
+Hi Charles,
+You don't need to include bsonobjbuilder.h nor dbclientcursor.h.  These files are included within dbclient.h already.  Your test almost compiles if I take out those two include lines (DBClientConnection.query returns a std::auto_ptr for me, not a boost::shared_ptr).
+-Eric
+
+The 'verify' function is a macro defined in src/mongo/client/redef_macros.h:
+
+#pragma push_macro("verify")
+#undef verify
+#define verify MONGO_verify
+
+
+src/mongo/client/redef_macros.h:83: warning: ignoring #pragma push_macro
+
+
+
+http://candordeveloper.com/2013/04/10/dependency-injection-is-over-hyped/
+
+http://www.devtrends.co.uk/blog/how-not-to-do-dependency-injection-the-static-or-singleton-container
+
+
+

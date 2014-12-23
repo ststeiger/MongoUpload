@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoUpload", "MongoUpload\MongoUpload.csproj", "{F8F12697-9BE8-43E2-BA6A-C94C8DFC48AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMongo", "SimpleMongo\SimpleMongo.csproj", "{1E795AAF-FB92-4D18-88B4-2F22F1370C22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F8F12697-9BE8-43E2-BA6A-C94C8DFC48AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F12697-9BE8-43E2-BA6A-C94C8DFC48AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8F12697-9BE8-43E2-BA6A-C94C8DFC48AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E795AAF-FB92-4D18-88B4-2F22F1370C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E795AAF-FB92-4D18-88B4-2F22F1370C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E795AAF-FB92-4D18-88B4-2F22F1370C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E795AAF-FB92-4D18-88B4-2F22F1370C22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
