@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoUpload", "MongoUpload\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMongo", "SimpleMongo\SimpleMongo.csproj", "{1E795AAF-FB92-4D18-88B4-2F22F1370C22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGit", "MyGit\MyGit.csproj", "{BE4647A2-04A9-4805-A00F-9A1EB6B74018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1E795AAF-FB92-4D18-88B4-2F22F1370C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E795AAF-FB92-4D18-88B4-2F22F1370C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E795AAF-FB92-4D18-88B4-2F22F1370C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4647A2-04A9-4805-A00F-9A1EB6B74018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4647A2-04A9-4805-A00F-9A1EB6B74018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4647A2-04A9-4805-A00F-9A1EB6B74018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4647A2-04A9-4805-A00F-9A1EB6B74018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

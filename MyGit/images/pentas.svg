@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Arno Formella -->
+<!-- CreationDate: Tue Jun 10 21:00:00 2014 -->
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1000" height="1000"
+  viewBox="0 0 20000 20000">
+<g>
+<path style=
+  "stroke:#C800C8;
+   stroke-width:50;
+   stroke-linecap:round;
+   fill:#C800C8;
+   fill-rule:evenodd;"
+d="M 455,10000
+   A 11756 11756 0 0 0  7363 12245
+   A  3820  3820 0 1 0  7363  7755
+   A  3820  3820 0 0 0  7363 12245
+   A 11756 11756 0 0 0 18545  4122
+   A 11756 11756 0 0 0  7365 19510
+   A 11756 11756 0 0 0  7365   490
+   A 11756 11756 0 0 0 18545 15878
+   A 11756 11756 0 0 0   455 10000
+  " />
+</g>
+</svg>

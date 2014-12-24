@@ -46,10 +46,10 @@ add the -a or --all flag to the end of the command.
 that will tell git to to check for changed files and any with changes should be comitted.
 
 
+https://help.github.com/articles/fetching-a-remote/
 
 
-
-
+git pull remotename branchname
 
 
 
